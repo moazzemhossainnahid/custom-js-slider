@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Custom JS Slider</title>
+    <script src="https://kit.fontawesome.com/655d2f3dcc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,8 +21,24 @@
     </div>
 
     <div class="allBtn">
-        <button onclick="rlPrev()">Prev</button>
-        <button onclick="rlNext()">Next</button>
+        <button class="navBTN" onclick="rlPrev()">
+            <div className="navBTN">
+                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={10} viewBox="0 0 16 10" fill="none">
+                    <path d="M15 5H0.999998" stroke="#334048" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 8.96387L1 4.96387" stroke="#334048" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 0.963867L1 4.96387" stroke="#334048" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+            </div>
+        </button>
+        <button class="navBTN" onclick="rlNext()">
+            <div className="navBTN">
+                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={10} viewBox="0 0 16 10" fill="none">
+                    <path d="M1 4.96387H15" stroke="#334048" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M11 8.96387L15 4.96387" stroke="#334048" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M11 0.963867L15 4.96387" stroke="#334048" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+            </div>
+        </button>
     </div>
 
 

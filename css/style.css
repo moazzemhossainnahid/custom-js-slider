@@ -39,6 +39,12 @@ section {
 .allBtn {
     text-align: center;
     padding: 50px;
+    margin: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto
 }
 /* top to bottom slider */
 
@@ -57,4 +63,18 @@ section {
     height: 100%;
     position: absolute;
     transition: 1s;
+}
+
+.navBTN{
+    border: none;
+    outline: none;
+    width: 70px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navBTN:hover{
+    background-color: #e3e3e392;
+    padding: 3px;
+    border-radius: 7px;
 }
