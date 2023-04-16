@@ -63,6 +63,18 @@ section {
     height: 100%;
     position: absolute;
     transition: 1s;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.lftSd{
+    width: 50%;
+}
+
+.rgtSd{
+    width: 50%;
 }
 
 .navBTN{
